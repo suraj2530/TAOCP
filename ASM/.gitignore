@@ -1,0 +1,8 @@
+# Executable files (must appear first)
+*
+!/**/
+!*.*
+
+# Object files
+*.o
+
