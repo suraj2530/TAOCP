@@ -1,5 +1,5 @@
 ; Prints "Hello World" via the C printf function
-    extern	printf		                ; the C function, to be called
+    extern	_printf		                ; the C function, to be called
 
 SECTION .data		                    ; Data section, initialized variables
 
@@ -9,14 +9,14 @@ theString:
 
 SECTION .text                           ; Code section.
 
-    global main		                    ; the standard gcc entry point
+    global _main		                    ; the standard gcc entry point
 
-main:				                    ; the program label for the entry point
+_main:				                    ; the program label for the entry point
     push    rbp		                    ; set up stack frame
 	
 	mov		rdi, theString              ; format for printf
 	mov		rax,0		                ; no xmm registers
-    call    printf		                ; Call C function
+    call    _printf		                ; Call C function
 
 	pop	rbp		                        ; restore stack
 
