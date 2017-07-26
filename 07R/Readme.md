@@ -9,7 +9,7 @@
 2. cd microsoft-r-open/
 3. sudo ./install.sh (and follow on-screen prompts)
 
-* MacOS - xcode-select --install
+* MacOS - Download and install from [https://mran.microsoft.com/download/](https://mran.microsoft.com/download/)
 
 
 # REPL
