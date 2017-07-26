@@ -8,5 +8,5 @@
 
 
 # Build & Run
- g++ filename.cpp -o filename.exe
+ g++ filename.cpp -o filename[.exe for Windows]
 ./filename
