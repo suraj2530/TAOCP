@@ -1,5 +1,5 @@
 # Install
-My first impression - Installation is the simple part.
+My first impression - Installation is the simple part. And this assumes that the JDK 8 is already installed.
 * Windows: Download and install from [http://www.scala-sbt.org/download.html](http://www.scala-sbt.org/download.html)
 
 * Ubuntu: 
