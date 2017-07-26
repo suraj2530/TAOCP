@@ -1,12 +1,19 @@
 # Install
-* https://mran.microsoft.com/download/
+* Windows:
+1. Download and install from [https://mran.microsoft.com/download/](https://mran.microsoft.com/download/)
+2. Add C:\Program Files\Microsoft\R Open\R-3.4.0\bin to your PATH 
+
 * Ubuntu:
-1. sudo apt-get update
-2. sudo apt-get upgrade
-3. sudo apt-get install build-essential
+1. Download and install from [https://mran.microsoft.com/download/](https://mran.microsoft.com/download/)
+2. tar -xf microsoft-r-open-3.4.0.tar.gz
+2. cd microsoft-r-open/
+3. sudo ./install.sh (and follow on-screen prompts)
+
 * MacOS - xcode-select --install
 
 
 # REPL
- gcc filename.c -o filename[.exe for Windows]
-./filename
+R --arch x64 --vanilla
+
+# Execute Script
+Rscript filename.R --arch x64 --vanilla
