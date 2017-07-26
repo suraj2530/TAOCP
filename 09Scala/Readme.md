@@ -13,6 +13,7 @@ My first impression - Installation is the simple part.
 
 
 # Compile & Run
+cd progname
 sbt
 run
 exit
