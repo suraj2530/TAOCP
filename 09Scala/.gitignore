@@ -1,14 +1,1 @@
-out
-data
-
-.history
-
 *.class
-*.cache
-*.log
-
-resolution-cache/
-compile/
-update_cache*/
-ivy*/
-runtime/
