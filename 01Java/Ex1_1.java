@@ -1,4 +1,4 @@
-class Main {
+class Ex1_1 {
     public static void main(String argv[]) {
         int a = 1;
         int b = 2;
