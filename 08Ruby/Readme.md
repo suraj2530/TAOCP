@@ -10,4 +10,4 @@
 ruby
 
 # Execute Script
-Rscript filename.R --arch x64 --vanilla
+ruby filename.rb

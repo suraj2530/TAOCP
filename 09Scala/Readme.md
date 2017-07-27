@@ -12,7 +12,9 @@ My first impression - Installation is the simple part. And this assumes that the
 * MacOS: brew install sbt
 
 
-# Compile & Run
+# Define new, Compile & Run
+sbt new sbt/scala-seed.g8
+
 cd progname
 sbt
 run
