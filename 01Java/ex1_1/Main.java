@@ -12,6 +12,6 @@ class Main {
         c = d;
         d = t;
 
-        System.out.format("%d, %d, %d, %d", a, b, c, d);
+        System.out.format("%d, %d, %d, %d\n", a, b, c, d);
     }
 }
