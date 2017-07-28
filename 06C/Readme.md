@@ -8,5 +8,5 @@
 
 
 # Build & Run
- gcc filename.c -o filename[.exe for Windows]
+ gcc -std=c99 filename.c -o filename[.exe for Windows]
 ./filename

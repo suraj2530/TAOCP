@@ -2,7 +2,9 @@
 (function () { 
 
     var calculateLcd = function (dividend, divisor) {
-        return 1;
+        var remainder = dividend % divisor;
+        if (remainder === 0) return divisor;
+        return calculateLcd(divisor, remainder);
     }
 
     var dividend = parseInt(process.argv[2]);

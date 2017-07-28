@@ -1,5 +1,6 @@
 {
     "files.associations": {
         "iostream": "cpp"
-    }
+    },
+    "r.lintr.enabled": false
 }
